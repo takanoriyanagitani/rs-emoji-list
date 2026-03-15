@@ -3,7 +3,16 @@ name = "rs-emoji-list"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the known emoji info."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-emoji-list"
+homepage = "https://github.com/takanoriyanagitani/rs-emoji-list"
+documentation = "https://docs.rs/rs-emoji-list/latest"
+keywords = ["emoji", "list", "wasi"]
+
 exclude = [
+    "rs-emoji-list.wasm",
+    "opt.wasm",
 ]
 
 [lints.rust]
